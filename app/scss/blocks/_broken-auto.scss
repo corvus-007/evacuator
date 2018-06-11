@@ -1,0 +1,32 @@
+.broken-auto {
+  padding-top: $grid-gutter-width;
+  padding-bottom: $grid-gutter-width;
+
+  @include mq-min(768px) {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+}
+
+.broken-auto__image {
+  @include mq-min(768px) {
+    width: 55%;
+    margin-right: 20px;
+  }
+}
+
+.broken-auto__title {
+  margin: 0;
+  font-size: 25px;
+
+  @include mq-min(568px) {
+    font-size: rem(30);
+  }
+
+  @include mq-min(768px) {
+    font-size: rem(35);
+    text-align: left;
+  }
+}

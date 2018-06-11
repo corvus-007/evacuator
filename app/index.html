@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  @@include('blocks/main-header.html')
+
+  <section class="section section-catch-attention">
+    <div class="section-catch-attention__inner container">
+      <strong class="section__title section-catch-attention__title">Консультация и расчет стоимости по телефону - бесплатно!</strong>
+      <button class="section-catch-attention__button button" type="button" data-fancybox data-src="#popup-callback">Заказать эвавкуатор</button>
+      <a class="section-catch-attention__phone" href="tel:+7(999)999-99-99">+7 (999) 999-99-99</a>
+    </div>
+  </section>
+
+  <main class="main" id="main">
+    <section class="section container container--slim broken-auto">
+      <img class="broken-auto__image" src="images/broken-auto.jpg" alt="">
+      <h2 class="broken-auto__title section__title">Выкуп битых авто в Брянске</h2>
+    </section>
+
+    <section class="section section-price">
+      <div class="container">
+        <h2 class="section__title">Цены на эвакуацию</h2>
+        <ul class="price">
+          <li class="price__item">
+            <div class="price__image"><img src="http://evakuator-bryansk32.ru/img/d7dcf8036e9c3281e8db22c25fa6ab19.jpeg" alt="Мотоциклы"></div>
+            <div class="price__body">
+              <h3 class="price__caption">Мотоциклы</h3>
+              <div class="price__value">от <b>1000 руб.</b></div>
+            </div>
+          </li>
+          <li class="price__item">
+            <div class="price__image"><img src="http://evakuator-bryansk32.ru/img/121c5f31134b232c39e53fba616588db.jpg" alt="Малолитражные"></div>
+            <div class="price__body">
+              <h3 class="price__caption">Малолитражные</h3>
+              <div class="price__value">от <b>1000 руб.</b></div>
+            </div>
+          </li>
+          <li class="price__item">
+            <div class="price__image"><img src="http://evakuator-bryansk32.ru/img/7d84aa5766f7d89b78a297671dccbf92.jpg" alt="Легковые"></div>
+            <div class="price__body">
+              <h3 class="price__caption">Легковые</h3>
+              <div class="price__value">от <b>1200 руб.</b></div>
+            </div>
+          </li>
+          <li class="price__item">
+            <div class="price__image"><img src="http://evakuator-bryansk32.ru/img/64a6d9bee68613a962b2b5ffa53a9e0f.jpeg" alt="Внедорожники"></div>
+            <div class="price__body">
+              <h3 class="price__caption">Внедорожники</h3>
+              <div class="price__value">от <b>1300 руб.</b></div>
+            </div>
+          </li>
+          <li class="price__item">
+            <div class="price__image"><img src="http://evakuator-bryansk32.ru/img/autobus.jpg" alt="Автобусы"></div>
+            <div class="price__body">
+              <h3 class="price__caption">Автобусы</h3>
+              <div class="price__value">от <b>1500 руб.</b></div>
+            </div>
+          </li>
+          <li class="price__item">
+            <div class="price__image"><img src="http://evakuator-bryansk32.ru/img/spec.jpg" alt="Спецтехника"></div>
+            <div class="price__body">
+              <h3 class="price__caption">Спецтехника</h3>
+              <div class="price__value">от <b>1700 руб.</b></div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section section-tariffs">
+      <div class="container">
+        <h2 class="section__title">Тарифы на эвакуацию</h2>
+        <div class="section__lead">
+          <p>Базовый тариф — включает в себя услугу по эвакуации, только в пределах города Брянска, время погрузки и выгрузки авто составит не более 15 мин., так же без простоя автоэвакуатора. Сложности погрузки-выгрузки транспорта зависиит от габаритов автомобиля, его состояния и трудностей при погрузке - прибавляется к основной стоимости.</p>
+        </div>
+        <ul class="tariffs">
+          <li class="tariffs__item">
+            <div class="tariffs__image"><img src="http://evakuator-bryansk32.ru/img/9f08246fc51c47fbd3bb0df7272a50ea.jpg" alt="Базовый тариф"></div>
+            <div class="tariffs__body">
+              <h3 class="tariffs__caption">Базовый тариф</h3>
+              <p class="tariffs__description">Эвакуация и перевозка ТС в пределах Брянска</p>
+              <div class="tariffs__price">от <b>1000 руб.</b></div>
+            </div>
+          </li>
+          <li class="tariffs__item">
+            <div class="tariffs__image"><img src="http://evakuator-bryansk32.ru/img/6907a469af2c454a37fc6ad1a26a13c4.jpg" alt="Расширенный тариф"></div>
+            <div class="tariffs__body">
+              <h3 class="tariffs__caption">Расширенный тариф</h3>
+              <p class="tariffs__description">Эвакуация и перевозка ТС за пределами Брянска</p>
+              <div class="tariffs__price">от <b>1200 руб.</b></div>
+            </div>
+          </li>
+          <li class="tariffs__item">
+            <div class="tariffs__image"><img src="http://evakuator-bryansk32.ru/img/0e99341d2948662f387950dc81596296.jpg" alt="Работа в ночное время"></div>
+            <div class="tariffs__body">
+              <h3 class="tariffs__caption">Работа в ночное время</h3>
+              <p class="tariffs__description">Базовый тариф + 50% от стоимости дневного</p>
+              <div class="tariffs__price">от <b>1500 руб.</b></div>
+            </div>
+          </li>
+          <li class="tariffs__item">
+            <div class="tariffs__image"><img src="http://evakuator-bryansk32.ru/img/0db57ed304ec856505cdb2478e7db842.jpg" alt="Тариф «BROKEN»"></div>
+            <div class="tariffs__body">
+              <h3 class="tariffs__caption">Тариф «BROKEN»</h3>
+              <p class="tariffs__description">Отсутствуют или повреждены колеса, подвеска и т.д.</p>
+              <div class="tariffs__price">от <b>1300 руб.</b></div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section section-about-us">
+      <div class="container container--slim">
+        <h2 class="section__title">О компании АТ-Л</h2>
+        <div class="section__lead">
+          <p>Компания «АТ-Л» осуществляет перевозки на микроавтобусах и легковых машинах  из Брянска в любой аэропорт г. Москвы: Домодедово, Шереметьево, Внуково. Это очень удобный способ перемещения туристов до аэропорта и обратно.</p>
+        </div>
+      </div>
+      <ul class="about-us">
+        <li class="about-us__item">
+          <div class="about-us__item-imagebox">
+            <img class="about-us__item-image" src="https://picsum.photos/1000/600?image=1067" alt="">
+          </div>
+          <div class="about-us__item-text">
+            <p><strong>Индивидуальный трансфер специально для Вас!</strong> Быстро, с комфортом, безопасно (в нашем штате вежливые и аккуратные водители-профессионалы) Вы доберетесь из Брянска в Шереметьево, Внуково или Домодедово. Вовремя, без задержек доставят к пункту назначения, что избавит Вас от ненужной головной боли и переживаний.</p>
+          </div>
+        </li>
+        <li class="about-us__item">
+          <div class="about-us__item-imagebox">
+            <img class="about-us__item-image" src="https://picsum.photos/1000/600?image=1083" alt="">
+          </div>
+          <div class="about-us__item-text">
+            <p><strong>Встреча путешественника в аэропорту и доставка его по месту назначения</strong> также входит в состав наших услуг. Заблаговременно позвоните и сделайте заказ на услугу. Водитель обязательно дождется, встретит Вас по прилету, проводит к парковке и отвезет Вас на указанный адрес.</p>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <section class="section section-contacts">
+      <div class="container">
+        <h2 class="section__title visuallyhidden">Контактная информация</h2>
+        <div class="section-contacts__modules">
+          <div class="section-contacts__module contact-info">
+            <div class="contact-info__logo">
+              <img src="images/logo-contact-info.png" srcset="images/logo-contact-info@2x.png 2x" width="218" alt="Логотип компании «АТ-Л»">
+            </div>
+            <ul class="contact-info__list">
+              <li class="contact-info__item">
+                <span class="contact-info__icon contact-info__icon--location"></span>
+                <span class="contact-info__text">
+                  <b class="contact-info__label">Адрес:</b>
+                  г. Брянск, ул. Некрасова, д. 2
+                </span>
+              </li>
+              <li class="contact-info__item">
+                <span class="contact-info__icon contact-info__icon--tel"></span>
+                <span class="contact-info__text">
+                  <b class="contact-info__label">Телефон:</b>
+                  <a href="tel: +7 (910) 345-67-55">+7 (910) 345-67-55</a>
+                </span>
+              </li>
+              <li class="contact-info__item">
+                <span class="contact-info__icon contact-info__icon--email"></span>
+                <span class="contact-info__text">
+                  <b class="contact-info__label">E-mail:</b>
+                  <a href="mailto:123567@mail.ru">123567@mail.ru</a>
+                </span>
+              </li>
+            </ul>
+          </div>
+          <form class="section-contacts__module contact-form" action="/" method="post">
+            <fieldset>
+              <legend>Оставить заявку</legend>
+              <label class="form-item">
+                <span class="form-label visuallyhidden">Имя:</span>
+                <input class="form-control" type="text" name="clientName" placeholder="Ваше имя*" required>
+              </label>
+              <label class="form-item">
+                <span class="form-label visuallyhidden">Телефон:</span>
+                <input class="form-control" type="tel" name="clientTel" placeholder="Телефон*" required>
+              </label>
+              <div class="form-submit-wrapper">
+                <button class="form-submit" type="submit">Отправить</button>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <div class="map" id="map" style="height: 600px;"></div>
+  </main>
+
+  @@include('blocks/popup-callback.html')
+  @@include('blocks/site-scripts.html')
+</body>
+</html>

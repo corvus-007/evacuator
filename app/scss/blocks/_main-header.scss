@@ -1,0 +1,26 @@
+.main-header {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.main-header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-header__column {
+  margin-right: 2.5rem;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.main-header__intro {
+  max-width: 500px;
+  margin: 0;
+  font-size: rem(24);
+  font-weight: 500;
+  text-align: right;
+}
